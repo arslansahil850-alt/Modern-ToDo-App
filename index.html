@@ -1,32 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#f5f7ff">
-    <meta name="description" content="A modern Todo App to organize daily tasks, track progress, and stay productive. Built by My Codelab.">
-    <title>Todo App | My Codelab</title>
+    <meta name="description"
+        content="A modern Todo App to organize daily tasks, track progress, and stay productive. Built by My Codelab.">
+    <title>Projects | Arslan Weblab</title>
+    <link rel="icon" href="logo.webp">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
 
     <header class="site-header" id="siteHeader">
         <div class="container navbar">
 
-            <a href="#home" class="brand" aria-label="My Codelab home">
+            <a href="https://arslan-weblab.netlify.app/" class="brand" aria-label="Arslan Weblab home" target="_blank">
                 <span class="brand-logo">
-                    <img src="logo.png" alt="My Codelab logo">
-                    <span class="logo-fallback">M</span>
+                    <img src="logo.webp" alt="Arslan Weblab logo">
+
                 </span>
-                <span class="brand-name">My <strong>Codelab</strong></span>
+                <span class="brand-name">Arslan <strong>Weblab</strong></span>
             </a>
 
-            <button class="menu-toggle" id="menuToggle"
-                aria-label="Open navigation menu"
-                aria-expanded="false"
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"
                 aria-controls="navLinks">
                 <span></span>
                 <span></span>
@@ -37,13 +38,12 @@
                 <a href="#home" class="nav-link active">Home</a>
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#about" class="nav-link">About</a>
-                <a href="https://arslan-weblab.netlify.app/"
-                   target="_blank" rel="noopener noreferrer"
-                   class="nav-link">Portfolio</a>
-                <a href="https://github.com/arslansahil850-alt"
-                   target="_blank" rel="noopener noreferrer"
-                   class="nav-link">GitHub</a>
-                <a href="#contact" class="nav-contact">Contact Me <span>↗</span></a>
+                <a href="https://arslan-weblab.netlify.app/" target="_blank" rel="noopener noreferrer"
+                    class="nav-link">Portfolio</a>
+                <a href="https://github.com/arslansahil850-alt" target="_blank" rel="noopener noreferrer"
+                    class="nav-link">GitHub</a>
+                <a href="https://arslan-weblab.netlify.app/pages/contact.html#contact-form" target="_blank"
+                    class="nav-contact">Contact Me <span>↗</span></a>
             </nav>
 
         </div>
@@ -211,13 +211,11 @@
                         <p>Every completed task is a step forward.</p>
                     </div>
 
-                    <button class="btn btn-secondary clear-completed-btn"
-                        id="clearCompleted">
+                    <button class="btn btn-secondary clear-completed-btn" id="clearCompleted">
                         Clear Completed
                     </button>
-                    
-                    <button class="btn btn-secondary clear-completed-btn"
-                        id="clearAllTask">
+
+                    <button class="btn btn-secondary clear-completed-btn" id="clearAllTask">
                         Clear All Tasks
                     </button>
 
@@ -244,15 +242,8 @@
                         <form class="task-form" id="taskForm">
                             <div class="task-input-wrap">
                                 <span class="input-plus">+</span>
-                                <input
-                                    type="text"
-                                    id="taskInput"
-                                    name="task"
-                                    placeholder="What needs to get done?"
-                                    maxlength="150"
-                                    autocomplete="off"
-                                    required
-                                    aria-label="New task">
+                                <input type="text" id="taskInput" name="task" placeholder="What needs to get done?"
+                                    maxlength="150" autocomplete="off" required aria-label="New task">
                             </div>
 
                             <div class="task-form-options">
@@ -290,18 +281,17 @@
                         <div class="task-controls">
 
                             <div class="filter-tabs" role="group" aria-label="Filter tasks">
-                                <button class="filter-btn active" data-filter="all"
-                                    type="button" aria-pressed="true">All</button>
-                                <button class="filter-btn" data-filter="active"
-                                    type="button" aria-pressed="false">Active</button>
-                                <button class="filter-btn" data-filter="completed"
-                                    type="button" aria-pressed="false">Completed</button>
+                                <button class="filter-btn active" data-filter="all" type="button"
+                                    aria-pressed="true">All</button>
+                                <button class="filter-btn" data-filter="active" type="button"
+                                    aria-pressed="false">Active</button>
+                                <button class="filter-btn" data-filter="completed" type="button"
+                                    aria-pressed="false">Completed</button>
                             </div>
 
                             <div class="task-search">
                                 <span>⌕</span>
-                                <input type="search" id="taskSearch"
-                                    placeholder="Search tasks..."
+                                <input type="search" id="taskSearch" placeholder="Search tasks..."
                                     aria-label="Search tasks">
                             </div>
 
@@ -341,8 +331,7 @@
                                 <span class="progress-heading-icon">✦</span>
                             </div>
 
-                            <div class="progress-circle" id="progressCircle"
-                                role="img" aria-label="0 percent complete">
+                            <div class="progress-circle" id="progressCircle" role="img" aria-label="0 percent complete">
                                 <div class="progress-circle-inner">
                                     <strong id="progressPercent">0%</strong>
                                     <span>Completed</span>
@@ -536,8 +525,7 @@
                         </p>
 
                         <div class="cta-actions">
-                            <a href="https://arslan-weblab.netlify.app/"
-                                target="_blank" rel="noopener noreferrer"
+                            <a href="https://arslan-weblab.netlify.app/" target="_blank" rel="noopener noreferrer"
                                 class="btn cta-primary">
                                 View My Portfolio <span>↗</span>
                             </a>
@@ -559,12 +547,11 @@
         <div class="container footer-main">
 
             <div class="footer-brand-column">
-                <a href="#home" class="brand footer-brand">
+                <a href="https://arslan-weblab.netlify.app/" target="_blank" class="brand footer-brand">
                     <span class="brand-logo">
-                        <img src="logo.png" alt="My Codelab logo">
-                        <span class="logo-fallback">M</span>
+                        <img src="logo.webp" alt="Arslan weblab logo">
                     </span>
-                    <span class="brand-name">My <strong>Codelab</strong></span>
+                    <span class="brand-name">Arslan <strong>Weblab</strong></span>
                 </a>
 
                 <p class="footer-description">
@@ -574,13 +561,11 @@
                 </p>
 
                 <div class="footer-socials">
-                    <a href="https://github.com/arslansahil850-alt"
-                        target="_blank" rel="noopener noreferrer"
+                    <a href="https://github.com/arslansahil850-alt" target="_blank" rel="noopener noreferrer"
                         aria-label="GitHub">GH</a>
-                    <a href="https://arslan-weblab.netlify.app/"
-                        target="_blank" rel="noopener noreferrer"
+                    <a href="https://arslan-weblab.netlify.app/" target="_blank" rel="noopener noreferrer"
                         aria-label="Portfolio">↗</a>
-                    <a href="mailto:arslansahil850@gmail.com"
+                    <a href="https://mail.google.com/mail/?view=cm&to=arslansahil850@gmail.com" target="_blank"
                         aria-label="Email">✉</a>
                 </div>
             </div>
@@ -595,13 +580,14 @@
 
             <div class="footer-links-column">
                 <h3>My Work</h3>
-                <a href="https://arslan-weblab.netlify.app/"
-                    target="_blank" rel="noopener noreferrer">Portfolio</a>
-                <a href="https://github.com/arslansahil850-alt"
-                    target="_blank" rel="noopener noreferrer">GitHub Repositories</a>
-                <a href="https://arslan-weblab.netlify.app/"
-                    target="_blank" rel="noopener noreferrer">Live Projects</a>
-                <a href="#contact">Web Development</a>
+                <a href="https://arslan-weblab.netlify.app/" target="_blank" rel="noopener noreferrer">Portfolio</a>
+                <a href="https://github.com/arslansahil850-alt?tab=repositories" target="_blank"
+                    rel="noopener noreferrer">GitHub
+                    Repositories</a>
+                <a href="https://myprojects-hub.netlify.app/" target="_blank" rel="noopener noreferrer">Live
+                    Projects</a>
+                <a href="https://myprojects-hub.netlify.app/" target="_blank" rel="noopener noreferrer">Web
+                    Development</a>
             </div>
 
             <div class="footer-links-column">
@@ -609,23 +595,24 @@
                 <p class="footer-contact-description">
                     Have an idea for a website? Let's discuss your project.
                 </p>
-                <a href="mailto:arslansahil850@gmail.com">Send an Email ↗</a>
-                <a href="https://arslan-weblab.netlify.app/"
-                    target="_blank" rel="noopener noreferrer">Hire Me</a>
-                <a href="#contact">Project Inquiry</a>
+                <a href="https://mail.google.com/mail/?view=cm&to=arslansahil850@gmail.com" target="_blank"
+                    rel="noopener noreferrer">Send an Email ↗</a>
+                <a href="https://arslan-weblab.netlify.app/" target="_blank" rel="noopener noreferrer">Hire Me</a>
+                <a href="https://arslan-weblab.netlify.app/pages/contact.html/" target="_blank">Project Inquiry</a>
             </div>
 
         </div>
 
         <div class="container footer-bottom">
 
-            <p>© <span id="currentYear">2026</span> My Codelab. All rights reserved.</p>
+            <p>© <span id="currentYear">2026</span> Arslan Weblab. All rights reserved.</p>
 
             <div class="footer-bottom-links">
                 <a href="#about">About</a>
-                <a href="https://github.com/arslansahil850-alt"
-                    target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="mailto:arslansahil850@gmail.com">Contact</a>
+                <a href="https://github.com/arslansahil850-alt" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:arslansahil850@gmail.com">E-Mail</a>
+                <a href="https://arslan-weblab.netlify.app/pages/contact.html#contact-form" target="_blank">Contact Me
+                    ↗</a>
             </div>
 
             <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
@@ -634,16 +621,14 @@
 
         <div class="powered-by">
             <span>Designed & developed with care by</span>
-            <a href="https://arslan-weblab.netlify.app/"
-                target="_blank" rel="noopener noreferrer">
-                My Codelab <span>↗</span>
+            <a href="https://arslan-weblab.netlify.app/" target="_blank" rel="noopener noreferrer">
+                Arslan Weblab <span>↗</span>
             </a>
         </div>
 
     </footer>
 
-    <div class="toast-container" id="toastContainer"
-        aria-live="polite" aria-atomic="true"></div>
+    <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
 
     <dialog class="edit-dialog" id="editDialog">
         <form id="editTaskForm" class="edit-dialog-form">
@@ -691,13 +676,12 @@
             </label>
 
             <div class="dialog-actions">
-                <button type="button" class="btn btn-secondary"
-                    id="cancelEditBtn">Cancel</button>
+                <button type="button" class="btn btn-secondary" id="cancelEditBtn">Cancel</button>
                 <button type="submit" class="btn btn-primary">Save Changes</button>
             </div>
         </form>
     </dialog>
 
 </body>
-</html>
 
+</html>
